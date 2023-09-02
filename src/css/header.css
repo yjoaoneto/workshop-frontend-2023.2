@@ -1,0 +1,68 @@
+.header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid rgba(226, 140, 11, 0.945);
+    background-image: url("https://ciencianautas.com/wp-content/uploads/2022/05/Sem-Titulo-2.png");
+    background-repeat: repeat;
+    
+}
+
+.header .logoHeader{
+    width: 40%;
+    height: 100%;
+    text-align: right;
+    justify-content: space-around;
+}
+
+.logoHeader img{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 0px 3px black;
+}
+
+.header .navHeader{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navHeader nav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navHeader nav ul{
+    width: 100%;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navHeader ul li{
+    transition: 0.4s;
+}
+.navHeader ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 3rem;
+
+}
+
+.navHeader ul li:hover{
+    transform: scale(1.3);
+}
+.navHeader ul li a:hover{
+    color:  rgb(226, 140, 11, 0.945);
+}
+

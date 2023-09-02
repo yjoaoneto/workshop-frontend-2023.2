@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.exibicao{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #555555;
+    border-bottom: 2px solid rgba(226, 140, 11, 0.945);;
+}
+
+.exibicao .conteudocomeco {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.exibicao .carroselComeco{
+    width: 600px;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px #555555;
+    border-radius: 10px;
+}
+
+.carroselComeco .containerCarrosel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conteudocomeco .textoApresentacao{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    color: white;
+}
+
+
+.headerAPI{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://ciencianautas.com/wp-content/uploads/2022/05/Sem-Titulo-2.png);
+}
+
+.headerCard h1{
+    color: white;
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.headerAPI .parteCards{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headerAPI .CARD{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.parteCards .CARD{
+    width: 23%;
+    height: 90%;
+    border: 5px solid rgba(226, 140, 11, 0.945);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CARD .cardbackground{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardbackground div{
+    padding: 10px;
+    margin: 5px;
+}
+
+.cardbackground .nomePersonagem{
+    width: 85%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 0px black,
+        -1px -1px 1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nome{
+    color: white;
+    font-weight: 600;
+    animation: blink 2s infinite;
+
+}
+
+#nome2{
+    color: white;
+    font-weight: 600;
+    animation: blink 2s infinite;
+
+}
+
+#nome3{
+    color: red;
+    font-weight: 600;
+    animation: blink 0.5s infinite;
+
+}
+
+#nome4{
+    color: white;
+    font-weight: 600;
+    animation: blink 2s infinite;
+
+}
+
+#nome5{
+    color: white;
+    font-weight: 600;
+    animation: blink 2s infinite;
+
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.cardbackground .imgCard{
+    width: 75%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 60px 10px;
+    border: black;
+}
+
+
+.cardbackground .alturaPersonagem{
+    width: 80%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-items: end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.cardbackground .pesoPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.cardbackground .cordapelePersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.cardbackground .corolhoPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.cardbackground .aniversarioPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.cardbackground .sexoPersonagem{
+    width: 80%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 5%;
+    border-radius: 5px;
+}
+
+.CARD p{
+    display: inline;
+}
